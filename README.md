@@ -12,5 +12,16 @@ The simulated car was able to complete a 6946m highway loop as fast as possible 
 ## Main file structure
  
  ### Folder *src*
+ This is the folder contains all c++ files constitute the program.
+ 
+ - main.cpp 
+ Main code that realizes the path planning. Most of the functions are defined here.
+ 
+ - helpers.h
+ All helper functions, include the cost calculations are defined here.
+ 
+ - spline.h
+ The spline libiary need for smoother path. 
  
  ### Project_readme.md
+ Origianl readme for this project.
